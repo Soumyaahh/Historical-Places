@@ -1,0 +1,60 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9u6iXiOMRUiOP78hIGrnJHiWzTZNgh8iPLw&usqp=CAU");
+    background-size: cover;
+}
+
+header{
+    position: relative;
+    top: 0px;
+    padding: 30px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to right,orange, white, green);
+    box-shadow: 5px 5px 5px;
+    border-style:double;
+}
+
+footer{
+    position: relative;
+    top: 0px;
+    padding: 10px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to right,orange, white, green);
+    box-shadow: 5px 5px 5px;
+    border-style: double;
+}
+
+.places{
+    position: absolute;
+    left: 15px;
+    border-radius: 20px;
+}
+
+#a{
+    position: relative;
+    background-color: rgb(218, 203, 181);
+    width: 1340px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+#a:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+p{
+    position: absolute;
+    left: 430px;
+    right: 50px;
+    font-size: 17px;
+}
+
+h2{
+    position: absolute;
+    font-size: 20px;
+    left: 780px;
+}
